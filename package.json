@@ -1,0 +1,61 @@
+{
+  "name": "@amao_/zy-ui",
+  "private": false,
+  "version": "0.0.3",
+  "type": "module",
+  "main": "./dist/zy-ui.js",
+  "description": "A Component Library for Vue3",
+  "exports": {
+    ".": {
+      "import": "./dist/zy-ui.js",
+      "require": "./dist/zy-ui.umd.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "fix": "eslint src --fix"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.22.9",
+    "@types/node": "^20.3.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "highlight.js": "^11.8.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.63.6",
+    "vite": "^4.4.5",
+    "vite-plugin-md": "^0.22.5",
+    "vue-router": "^4.2.4"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "component",
+    "ui",
+    "组件库"
+  ],
+  "author": {
+    "name": "Amao624",
+    "email": "zy1507138759@163.com",
+    "url": "https://github.com/Amao624"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
